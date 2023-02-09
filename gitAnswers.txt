@@ -1,0 +1,33 @@
+
+Questions//Create a folder called learn_git_again.
+Answers// mkdir learn_git_again
+Questions//cd into the learn_git_again folder.
+Answers// cd learn_git_again
+Questions//Create a file called third.txt.
+Answers// touch third.txt
+Questions//Initialize an empty git repository.
+Answers// git init
+Questions//Add third.txt to the staging area.
+Answers// git add third.txt
+Questions//Commit with the message “adding third.txt”.
+Answers// git commit -m “adding third.txt”
+Questions//Check out your commit with git log.
+Answers// git log
+Questions//Create another file called fourth.txt.
+Answers// touch fourth.txt
+Questions//Add fourth.txt to the staging area.
+Answers// git add fourth.txt
+Questions//Commit with the message “adding fourth.txt”.
+Answers// git commit -m “adding fourth.txt”
+Questions//Remove the third.txt file.
+Answers// rm third.txt
+Questions//Add this change to the staging area.
+Answers// git add third.txt
+Questions//Commit with the message “removing third.txt”.
+Answers// git commit -m “removing third.txt”
+Questions//Check out your commits using git log.
+Answers// git log
+Questions//Change your global setting to core.pager=cat - you can read more about that [here](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration).
+Answers// git config --global core.pager “cat”
+Questions//Write the command to list all of the global configurations for git on your machine.
+Answers// You can type git config --global to find out how to do this - git config --global --list
